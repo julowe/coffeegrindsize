@@ -1,6 +1,6 @@
 # Coffee Grind Size Application
 
-This is a pared down copy of [jgagneastro's coffeegrindsize repo](https://github.com/jgagneastro/coffeegrindsize). No, this is a hack and not a fork because that repo is 400mb. So I am copying in files to this repo and also has the addition of 4/3 factor for volume calculation from [wannabecoffeenerd's unmerged pull request](https://github.com/jgagneastro/coffeegrindsize/pull/11).
+This is a pared down copy of [jgagneastro's coffeegrindsize repo](https://github.com/jgagneastro/coffeegrindsize). No, this is a hack and not a fork because that repo is 400mb. So I am copying in files to this repo and adding in the 4/3 factor for volume calculation from [wannabecoffeenerd's unmerged pull request](https://github.com/jgagneastro/coffeegrindsize/pull/11).
 
 I am running linux so just wanted to simply run the `coffeegrindsize.py` file.
 
@@ -23,8 +23,9 @@ If this doesn't work for some reason either start over with a new venv (run `dea
 
 Collection of possible changes I am collecting as I use the app.
 
-- [ ] create a new repo and pull in only the ine main .py file & LICENSE & README. Shrink file size of PDFs in the Help folder and add those to repo. Intent is to make repo smaller and focused on code. Get rid of build and .pages files.
-- [ ] add instructions on creating venv and make a requirements file
+- [x] create a new repo and pull in only the one main .py file & LICENSE & README. 
+- [ ] Shrink file size of PDFs in the Help folder and add those to repo. Intent is to make repo smaller and focused on code. Get rid of build and .pages files.
+- [x] add instructions on creating venv and make a requirements file
 - [ ] make gui open/save dialogs default to source folder - or at least remember last place you opened/saved to in current session
 - [ ] make image window resize to resized outer container, and/or add scroll bars
 - [ ] make window open smaller than the monitor resolution
