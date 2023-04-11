@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# venv specific to this repo
+venv-coffee/
+
 # C extensions
 *.so
 
