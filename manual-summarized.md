@@ -47,4 +47,19 @@ Note that the software will be unable to detect the particles smaller than a few
 
 ## Example Images and GUI Info
 
-TODO
+There are very few clumps of coffee particles in this picture, which is good. 
+The upper shadow will still need to be avoided, and there are not that many coffee particles, 
+but this is better than an image full of clumps.
+![Example of good source picture of adequately spread out coffee grounds on white paper](manual-summarized-1-better-example-picture.jpg)
+
+An example of how a reference object is measured in the software. 
+This measurement correctly avoids the coin thickness (lower left side of the image) and the shadows, 
+and is taken along the axis perpendicular to the point of view’s inclination. 
+This allows the user to obtain an accurate estimate of the size of pixels in their picture.
+![image of US quarter with red line from one edge to other, through the center of circle](manual-summarized-2-ref-object.jpg)
+
+![screenshot of application GUI with notes](manual-summarized-3-gui.jpg)
+
+A distribution of the particle surfaces. 
+This is an example of what the software can generate for you.
+![image of histogram of results from application](manual-summarized-4-histogram.jpg)
