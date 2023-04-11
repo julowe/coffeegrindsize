@@ -31,6 +31,7 @@ Collection of possible changes I am collecting as I use the app.
 - [ ] make window open smaller than the monitor resolution
 - [ ] make open image dialog default to png AND jpg
 - [ ] option to use data label as filename base
+- [ ] Figure out and use github actions to create binaries for mac linux windows
 
 
 ## Original Readme Info
